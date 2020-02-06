@@ -1,0 +1,24 @@
+{
+    "name": "flogar/htmltopdf",
+    "description": "Flogar Reporte Html a Pdf usando wkhtmltopdf",
+    "keywords": ["flogar", "wkhtmltodf", "representacion-impresa"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jucafloga",
+            "email": "jucafloga@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/jucafloga/flogar-htmltopdf",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.9",
+        "flogar/core": "^1.0",
+        "mikehaertl/phpwkhtmltopdf": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flogar\\": "src/"
+        }
+    }
+}
